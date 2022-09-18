@@ -4,81 +4,91 @@
         <meta charset="en">
         <title>Spellmann Laboratories</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     </head>
     <body>
         <header>
+            <div class="h1div">
             <h1>Spellmann Laboratories</h1>
-                <nav>
-                <ul class="navbar">
-                    <li class="navitem"><a href="#">Home</a></li>
-                    <li class="navitem"><a href="#">About</a></li>
-                    <li class="navitem"><a href="#">Contact</a></li>
-                </ul>
+            </div>
+            <nav class="navbar  justify-content-center">
+                <div class="d-flex">
+                    <ul class="nav">
+                        <li class="navitem"><a href="#">Home</a></li>
+                        <li class="navitem"><a href="ordering.html">Ordering</a></li>
+                        <li class="navitem"><a href="about.html">About</a></li>
+                        <li class="navitem"><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
-        <div class="parent">
-            <div class="parentcontainer">
-                <button onclick="myfunction()" class="dropbtn">Cannabinoids</button>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                <div id="mydropdown" class="dropdown">
-                    <a>Link1</a>
-                    <a>Link2</a>
-                    <a>Link3</a>
+        <div>
+            <div class="d-flex flex-column">
+                <div class="parentcontainer">
+                  <div class="dropbtn on-dropdown">Cannabinoids</div>
+                  <div class="dropdown">
+                    <ul>
+                      <li><a href="#">Link 1</a></li>
+                      <li><a href="#">Link 2</a></li>
+                      <li><a href="#">Link 3</a></li>
+                      <li><a href="#">Link 4</a></li>
+                    </ul>
+                  </div>
                 </div>
-            </div>
-            <div class="parentcontainer">
-                <button onclick="myfunction()" class="dropbtn">Cathinones</button>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                <div id="mydropdown" class="dropdown">
-                    <a>Link1</a>
-                    <a>Link2</a>
-                    <a>Link3</a>
+                <div class="parentcontainer">
+                  <div class="dropbtn on-dropdown">Cathinones</div>
+                  <div class="dropdown">
+                    <ul>
+                      <li><a href="#">Link 1</a></li>
+                      <li><a href="#">Link 2</a></li>
+                      <li><a href="#">Link 3</a></li>
+                      <li><a href="#">Link 4</a></li>
+                    </ul>
+                  </div>
                 </div>
-            </div>
-            <div class="parentcontainer">
-                <button onclick="myfunction()" class="dropbtn">Dissociatives</button>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                <div id="mydropdown" class="dropdown">
-                    <a>Link1</a>
-                    <a>Link2</a>
-                    <a>Link3</a>
-                </div>
-            </div>
-            <div class="parentcontainer">
-                <button onclick="myfunction()" class="dropbtn">Opioids</button>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                <div id="mydropdown" class="dropdown">
-                    <a>Link1</a>
-                    <a>Link2</a>
-                    <a>Link3</a>
-                </div>
-            </div>
-            <div class="parentcontainer">
-                <button onclick="myfunction()" class="dropbtn">Phenethylamines</button>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                <div id="mydropdown" class="dropdown">
-                    <a>Link1</a>
-                    <a>Link2</a>
-                    <a>Link3</a>
-                </div>
-            </div>
-            <div class="parentcontainer">
-                <button onclick="myfunction()" class="dropbtn">tryptamines</button>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                <div id="mydropdown" class="dropdown">
-                    <a>Link1</a>
-                    <a>Link2</a>
-                    <a>Link3</a>
-                </div>
-            </div>
-        </div>
-        <div class="parentimg">
+                    <div class="parentcontainer">
+                      <div class="dropbtn on-dropdown">Dissociatives</div>
+                      <div class="dropdown">
+                        <ul>
+                          <li><a href="#">Link 1</a></li>
+                          <li><a href="#">Link 2</a></li>
+                          <li><a href="#">Link 3</a></li>
+                          <li><a href="#">Link 4</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                            <div class="parentcontainer">
+                              <div class="dropbtn on-dropdown">Phenethylamines</div>
+                              <div class="dropdown">
+                                <ul>
+                                  <li><a href="#">Link 1</a></li>
+                                  <li><a href="#">Link 2</a></li>
+                                  <li><a href="#">Link 3</a></li>
+                                  <li><a href="#">Link 4</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                                <div class="parentcontainer">
+                                  <div class="dropbtn on-dropdown">tryptamines</div>
+                                  <div class="dropdown">
+                                    <ul>
+                                      <li><a href="#">Link 1</a></li>
+                                      <li><a href="#">Link 2</a></li>
+                                      <li><a href="#">Link 3</a></li>
+                                      <li><a href="#">Link 4</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+              </div>
+          <div class="parentimg">
             <img class="placeholderimgcontent" src="../XSS4-Repository/Images/placeholderimg.jpeg">
         </div>
         <div class="insta">
             <a href="#">Follow us on Instagram!</a>
         </div>
         <script defer type="text/javascript" src="../Spellmann-Laboratories/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </body>
 </html>
